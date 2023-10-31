@@ -57,7 +57,7 @@ Feel free to personalize this project by modifying the code. Adjust the game's r
 
 **TM1637 Library**: We would like to express our gratitude to Avishay for the TM1637 library, which simplifies the use of 7-segment displays.
 
-## 8. License
+### 8. License
 This project is open-source and distributed under the MIT License, which allows you to use, modify, and distribute the code while giving appropriate credit to the original work.
 
 Enjoy playing your Snake Game with Arduino and Joystick!
