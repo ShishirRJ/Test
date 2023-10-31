@@ -30,7 +30,21 @@ To bring this Snake Game to life, we've utilized the following components:
 
 **Potentiometer**: Adjust the game's difficulty by controlling the speed of the snake.
 
-### 4. Installation
+### 4. Wiring Diagram
+|Device|Pin Number|
+|---|---|
+|Matrix CLK|5|
+|Matrix CS|7|
+|Matrix DIN|6|
+|Joystick X|A1|
+|Joystic Y|A2|
+|Joystick SW|2|
+|7 Segment Display DIO|11|
+|7 Segment Display CLK|12|
+|Piezo Buzzer|10|
+|Potentiometer|A0|
+
+### 5. Installation
 **1. Hardware Setup:**
 * Connect the LED Matrix (MAX7219) to your Arduino following manufacturer guidelines.
 * Connect the Analog Joystick to your Arduino.
@@ -41,7 +55,7 @@ To bring this Snake Game to life, we've utilized the following components:
 * Install the Arduino IDE if not already installed.
 * Download the Snake Game code and upload it to your Arduino board.
 
-### 5. How to Play
+### 6. How to Play
 * Upon uploading the code to your Arduino, the game will begin, with an opening song played by the piezo buzzer.
 * Use the joystick to guide the snake, collecting food represented as dots on the LED matrix.
 * Each time the snake eats, it grows in length.
@@ -49,15 +63,15 @@ To bring this Snake Game to life, we've utilized the following components:
 * Your score is displayed on the 7-segment display.
 * The game ends with a closing song played by the piezo buzzer when you lose. You can restart the game by resetting the Arduino or by pressing the button on the Analog Joystick.
 
-### 6. Customization
+### 7. Customization
 Feel free to personalize this project by modifying the code. Adjust the game's rules, add new features, or change the visuals and sounds to suit your preferences.
 
-### 7. Credits
+### 8. Credits
 **LedControl Library**: Credit goes to Eberhard Fahle for developing the LedControl library, which makes it easy to control LED matrices.
 
 **TM1637 Library**: We would like to express our gratitude to Avishay for the TM1637 library, which simplifies the use of 7-segment displays.
 
-### 8. License
+### 9. License
 This project is open-source and distributed under the MIT License, which allows you to use, modify, and distribute the code while giving appropriate credit to the original work.
 
 Enjoy playing your Snake Game with Arduino and Joystick!
