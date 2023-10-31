@@ -4,19 +4,20 @@
 * Project Title
 * Project Description
 * Devices Used
+* Wiring Diagram
 * Installation
 * How to Play
 * Customization
 * Credits
 * License
 
-## 1. Project Title
+### 1. Project Title
 Snake Game using Arduino Controlled by Joystick
 
-## 2. Project Description
+### 2. Project Description
 A classic Snake game implemented on Arduino, controlled with an analog joystick and displayed on an LED matrix. Keep track of your score on a 7-segment display, and enjoy sound effects with a Piezo Buzzer.
 
-## 3. Devices Used
+### 3. Devices Used
 To bring this Snake Game to life, we've utilized the following components:
 
 **LED Matrix (MAX7219)**: The game grid, snake, food, and obstacles are displayed here.
@@ -29,7 +30,7 @@ To bring this Snake Game to life, we've utilized the following components:
 
 **Potentiometer**: Adjust the game's difficulty by controlling the speed of the snake.
 
-## 4. Installation
+### 4. Installation
 **1. Hardware Setup:**
 * Connect the LED Matrix (MAX7219) to your Arduino following manufacturer guidelines.
 * Connect the Analog Joystick to your Arduino.
@@ -40,7 +41,7 @@ To bring this Snake Game to life, we've utilized the following components:
 * Install the Arduino IDE if not already installed.
 * Download the Snake Game code and upload it to your Arduino board.
 
-## 5. How to Play
+### 5. How to Play
 * Upon uploading the code to your Arduino, the game will begin, with an opening song played by the piezo buzzer.
 * Use the joystick to guide the snake, collecting food represented as dots on the LED matrix.
 * Each time the snake eats, it grows in length.
@@ -48,10 +49,10 @@ To bring this Snake Game to life, we've utilized the following components:
 * Your score is displayed on the 7-segment display.
 * The game ends with a closing song played by the piezo buzzer when you lose. You can restart the game by resetting the Arduino or by pressing the button on the Analog Joystick.
 
-## 6. Customization
+### 6. Customization
 Feel free to personalize this project by modifying the code. Adjust the game's rules, add new features, or change the visuals and sounds to suit your preferences.
 
-## 7. Credits
+### 7. Credits
 **LedControl Library**: Credit goes to Eberhard Fahle for developing the LedControl library, which makes it easy to control LED matrices.
 
 **TM1637 Library**: We would like to express our gratitude to Avishay for the TM1637 library, which simplifies the use of 7-segment displays.
