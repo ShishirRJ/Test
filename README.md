@@ -1,16 +1,16 @@
 # Snake Game with Arduino and Joystick
 
-Snake Game with Arduino and Joystick
-Table of Contents (Optional)
-Introduction
-Components Used
-Installation
-How to Play
-Customization
-Credits
-License
+## Table of Contents:
+* Project Title
+* Project Description
+* Devices Used
+* Installation
+* How to Play
+* Customization
+* Credits
+* License
 
-## 1. Project's Title
+## 1. Project Title
 Snake Game using Arduino Controlled by Joystick
 
 ## 2. Project Description
@@ -19,43 +19,42 @@ A classic Snake game implemented on Arduino, controlled with an analog joystick 
 ## 3. Devices Used
 To bring this Snake Game to life, we've utilized the following components:
 
-LED Matrix (MAX7219): The game grid, snake, food, and obstacles are displayed here.
+**LED Matrix (MAX7219)**: The game grid, snake, food, and obstacles are displayed here.
 
-Analog Joystick: Control the snake's movements (up, down, left, right) with this.
+**Analog Joystick**: Control the snake's movements (up, down, left, right) with this.
 
-Piezo Buzzer: Experience an opening and closing tune when you start and end the game.
+**Piezo Buzzer**: Experience an opening and closing tune when you start and end the game.
 
-7-Segment Display (TM1637): Keep track of your score throughout the game.
+**7-Segment Display (TM1637)**: Keep track of your score throughout the game.
 
-Potentiometer: Adjust the game's difficulty by controlling the speed of the snake.
+**Potentiometer**: Adjust the game's difficulty by controlling the speed of the snake.
 
 ## 4. Installation
-Hardware Setup:
-
-Connect the LED Matrix (MAX7219) to your Arduino following manufacturer guidelines.
-Connect the Analog Joystick to your Arduino.
-Incorporate the Piezo Buzzer for sound effects.
-Display your score using the 7-Segment Display (TM1637).
-Use the Potentiometer to adjust the snake's speed.
-Software Setup:
-Install the Arduino IDE if not already installed.
-Download the Snake Game code and upload it to your Arduino board.
+1. **Hardware Setup:**
+* Connect the LED Matrix (MAX7219) to your Arduino following manufacturer guidelines.
+* Connect the Analog Joystick to your Arduino.
+* Incorporate the Piezo Buzzer for sound effects.
+* Display your score using the 7-Segment Display (TM1637).
+* Use the Potentiometer to adjust the snake's speed.
+2. **Software Setup:**
+* Install the Arduino IDE if not already installed.
+* Download the Snake Game code and upload it to your Arduino board.
 
 ## 5. How to Play
-Upon uploading the code to your Arduino, the game will begin, with an opening song played by the piezo buzzer.
-Use the joystick to guide the snake, collecting food represented as dots on the LED matrix.
-Each time the snake eats, it grows in length.
-Be cautious and avoid collisions with the wall or the snake's own body, as this will terminate the game.
-Your score is displayed on the 7-segment display.
-The game ends with a closing song played by the piezo buzzer when you lose. You can restart the game by resetting the Arduino or pressing the reset button.
+* Upon uploading the code to your Arduino, the game will begin, with an opening song played by the piezo buzzer.
+* Use the joystick to guide the snake, collecting food represented as dots on the LED matrix.
+* Each time the snake eats, it grows in length.
+* Be cautious and avoid collisions with the wall or the snake's own body, as this will terminate the game.
+* Your score is displayed on the 7-segment display.
+* The game ends with a closing song played by the piezo buzzer when you lose. You can restart the game by resetting the Arduino or by pressing the button on the Analog Joystick.
 
 ## 6. Customization
 Feel free to personalize this project by modifying the code. Adjust the game's rules, add new features, or change the visuals and sounds to suit your preferences.
 
 ## 7. Credits
-LedControl Library: Credit goes to Eberhard Fahle for developing the LedControl library, which makes it easy to control LED matrices.
+**LedControl Library**: Credit goes to Eberhard Fahle for developing the LedControl library, which makes it easy to control LED matrices.
 
-TM1637 Library: We would like to express our gratitude to Avishay for the TM1637 library, which simplifies the use of 7-segment displays.
+**TM1637 Library**: We would like to express our gratitude to Avishay for the TM1637 library, which simplifies the use of 7-segment displays.
 
 ## 8. License
 This project is open-source and distributed under the MIT License, which allows you to use, modify, and distribute the code while giving appropriate credit to the original work.
