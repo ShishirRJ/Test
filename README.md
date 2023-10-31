@@ -36,11 +36,11 @@ To bring this Snake Game to life, we've utilized the following components:
 |Matrix CLK|5|
 |Matrix CS|7|
 |Matrix DIN|6|
-|Joystick X|A1|
-|Joystic Y|A2|
-|Joystick SW|2|
 |7 Segment Display DIO|11|
 |7 Segment Display CLK|12|
+|Joystick SW|2|
+|Joystick X|A1|
+|Joystic Y|A2|
 |Piezo Buzzer|10|
 |Potentiometer|A0|
 
